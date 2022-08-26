@@ -53,19 +53,69 @@ nav ul li a {
 h2 {
     font-size: 30px;
     padding: 15px;
+    color: #436d04;
 }
+
+h3 {
+    color: #436d04;
+}
+
 
 .about {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
 }
 
 .about img {
-    height: 200px;
+    height: 300px;
 }
 
 .about p {
     width: 50vh;
+    font-size: 25px;
 }
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.card img {
+    height: 200px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.3); 
+  }
